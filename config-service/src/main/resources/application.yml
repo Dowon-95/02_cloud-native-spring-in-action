@@ -15,8 +15,8 @@ spring:
       server:
         git:
           uri: https://github.com/Dowon-95/02_cloud-native-spring-in-action
+          search-paths: config-repo
           default-label: main
           timeout: 5
           clone-on-start: true
           force-pull: true
-          search-paths: config-repo
